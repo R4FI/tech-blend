@@ -2,26 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+  height: 100vh;
+}
+
+root {
+  background: white !important;
+}
+.productcard {
+  height: 470px;
+}
+.reviewcard {
+  background: rgb(238, 235, 235);
+  margin: auto !important;
+  padding: 15px;
+  border-radius: 15px;
+}
+.singerivewcard {
+  background-color: rgb(241, 241, 245);
+  padding: 15px;
+}
+
+.buildcard {
+  background: rgb(238, 235, 235);
+  padding: 15px;
+  margin-top: 25px;
+}
+.addbtn {
+  color: white;
+  height: 55px;
+  margin-top: 45px;
+}
+
+.removebtn {
+  background-color: brown;
+  height: 55px;
+  margin-top: 45px;
+}
+.complete-btn {
+  width: 390px;
+  background-color: black;
+  color: white;
+  padding: 8px;
+}
+.homeadd {
+  background: black;
+  color: white;
+  width: 255px;
+}
+.choose-btn {
+  background: black;
+  color: white;
+  padding: 5px;
+  width: 75px;
+  margin-top: 5px;
 }
