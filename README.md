@@ -11,7 +11,8 @@ yarn dev
 # or
 pnpm dev
 ```
-
+In this website I use github and gooogle log in.
+different category and product. By clicking add to build the component added into the pc build section.By clicking Add detail button user can get all the details about the product 
 Open [${process.env.URL}](${process.env.URL}) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
@@ -33,6 +34,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Vercel link:https://techblend.vercel.app/
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
